@@ -2262,4 +2262,29 @@
             },
         ],
     },
+    'wenxuecity.com/': {
+        _name: '文学城',
+        blog: [
+            {
+                title: '博客',
+                docs: 'https://docs.rsshub.app/bbs.html#wen-xue-cheng-bo-ke',
+                source: '/myblog/:id',
+                target: 'wenxuecity/blog/:id',
+            },
+            {
+                title: '博客',
+                docs: 'https://docs.rsshub.app/bbs.html#wen-xue-cheng-bo-ke',
+                source: '/myoverview/:id',
+                target: 'wenxuecity/blog/:id',
+    'buaq.net': {
+        _name: '不安全资讯',
+        '.': [
+            {
+                title: '不安全资讯',
+                docs: 'http://docs.rsshub.app/new-media.html#bu-an-quan',
+                source: '/',
+                target: '/buaq',
+            },
+        ],
+    },
 });
